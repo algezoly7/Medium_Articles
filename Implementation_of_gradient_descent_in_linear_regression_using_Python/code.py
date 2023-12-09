@@ -18,8 +18,8 @@ def update_parameter(x_axis, y_axis, parameter, learning_rate):
     return parameter
 
 
-x_axis = [1, 2, 3, 4, 5, 6]
-y_axis = [2, 4, 6, 8, 10, 12]
+x_axis = [1, 2, 1.5, 1.6, 3, 2.6, 5, 4.1, 4, 4.8]
+y_axis = [1, 2, 0.7, 2.4, 3, 2.5, 5, 3.5, 4.8, 4.3]
 parameter = 0.1
 loss = [0] * len(x_axis)
 learning_rate = 0.001
